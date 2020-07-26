@@ -3,6 +3,8 @@
     --verde: #47cfac;
     --negro: #01010c;
     --verde-hover: #2fdee6;
+    --gris-suave: #e7e9ed;
+    --footer-color:#22272d;
   }
 
 /* General styles  */
@@ -24,6 +26,10 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.grid_container {
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* Header style  */
@@ -149,7 +155,7 @@ nav .profile_link a {
   display: grid;
 }
 .blogs_news_container {
-  background-color: #e6e9ed;
+  background-color: var(--gris-suave);
   padding: 0 50px 40px;
 }
 .blogs_main_new {
@@ -211,4 +217,17 @@ grid-column: 1;
   width: 100%;
   height: 220px;
   object-fit: cover;
+}
+
+/* footer style  */
+
+footer {
+  width: 100%;
+  height: 70px;
+  color: aliceblue;
+  background-color: var(--footer-color);
+  border-top: 35px solid var(--verde);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
