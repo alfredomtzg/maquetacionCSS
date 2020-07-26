@@ -14,7 +14,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace,'Roboto', sans-serif;
 }
 
 a {
@@ -97,6 +97,7 @@ nav .profile_link{
 }
 nav .profile_link a{
     border-bottom: 1px solid var(--negro);
+    
 }
 /* main style  */
 
@@ -118,6 +119,9 @@ nav .profile_link a{
     }
   }
 .main_home h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: 700px;
     padding-top: 3em;
     margin-bottom: 3em;
     letter-spacing: .3em;
