@@ -1,3 +1,10 @@
+/* Color variables */
+:root {
+    --verde: #47cfac;
+    --negro: #01010c;
+    --verde-hover: #2fdee6;
+  }
+
 /* General styles  */
 body {
     padding: 0;
@@ -7,12 +14,13 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
     display: inline;
-    color: #01010c;
+    color: var(--negro);
 }
 
 /* Header style  */
@@ -28,7 +36,7 @@ header .social_media_container {
     width:100%;
     height: 60px;
     display: grid;
-    background-color: #47cfac;
+    background-color: var(--verde);
 }
 
 header .social_media_container .icons {
@@ -76,9 +84,53 @@ nav .nav_logo_container{
     margin-left: 50px;
 }
 
+nav .nav_logo_container img{
+    width: 220px;
+    margin-top: 10px;
+}
+
 nav .profile_link{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
+}
+nav .profile_link a{
+    border-bottom: 1px solid var(--negro);
+}
+/* main style  */
+
+.main_home {
+    background-image: url('https://raw.githubusercontent.com/degranda/Platzi-blog/master/Clase%2010%20(index%20img%20background)/assets/img/Cover.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+
+@supports (backdrop-filter: blur(5px)) {
+    .main_text {
+      backdrop-filter: blur(5px);
+    }
+  }
+.main_home h1{
+    padding-top: 3em;
+    margin-bottom: 3em;
+    letter-spacing: .3em;
+    white-space: .3em;
+}
+.main_home .btn{
+    border: var(--verde) 1px solid;
+    border-radius: 5px;
+    background-color: var(--verde);
+    color: var(--negro);
+    padding: 5px 20px;
+}
+.main_home .btn:hover{
+    background-color: var(--verde-hover);
+    cursor: pointer;
 }
