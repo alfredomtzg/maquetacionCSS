@@ -133,4 +133,5 @@ nav .profile_link a{
 .main_home .btn:hover{
     background-color: var(--verde-hover);
     cursor: pointer;
+    color: aliceblue;
 }
