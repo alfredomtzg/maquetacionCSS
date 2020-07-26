@@ -19,7 +19,49 @@ a {
 
 header {
     width: 100%;
-    height: 20px;
+    height: 140px;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
+header .social_media_container {
+    width:100%;
+    height: 60px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .social_media_container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin: 0 30px;
+}
+header .social_media_container .icons .social-link {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background-size: 50px 50px;
+  }
+.facebook {
+    background-image: url("https://image.flaticon.com/icons/png/512/25/25305.png");
+  }
+
+.instagram {
+    background-image: url("https://image.flaticon.com/icons/svg/25/25425.svg");
+  }
+
+.linkedin {
+    background-image: url("https://image.flaticon.com/icons/png/512/25/25320.png");
+  }
+
+.github {
+    background-image: url("https://image.flaticon.com/icons/svg/25/25657.svg");
+  }
+.codepen {
+    background-image: url("https://i1.wp.com/blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Small.png?resize=125%2C125&ssl=1");
+  }
