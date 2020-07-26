@@ -9,11 +9,6 @@
 body {
     padding: 0;
     margin: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-family: 'Roboto Mono', monospace,'Roboto', sans-serif;
 }
 
@@ -21,6 +16,14 @@ a {
     text-decoration: none;
     display: inline;
     color: var(--negro);
+}
+
+.home_body{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* Header style  */
@@ -80,29 +83,29 @@ nav {
       height: 90px;
 }
 
-nav .nav_logo_container{
+nav .nav_logo_container {
     margin-left: 50px;
 }
 
-nav .nav_logo_container img{
+nav .nav_logo_container img {
     width: 220px;
     margin-top: 10px;
 }
 
-nav .profile_link{
+nav .profile_link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
 }
-nav .profile_link a{
+nav .profile_link a {
     border-bottom: 1px solid var(--negro);
     
 }
 /* main style  */
 
 .main_home {
-    background-image: url('https://raw.githubusercontent.com/degranda/Platzi-blog/master/Clase%2010%20(index%20img%20background)/assets/img/Cover.png');
+    background-image: url('../assets/img/cover.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +121,7 @@ nav .profile_link a{
       backdrop-filter: blur(5px);
     }
   }
-.main_home h1{
+.main_home h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: 700px;
@@ -127,15 +130,45 @@ nav .profile_link a{
     letter-spacing: .3em;
     white-space: .3em;
 }
-.main_home .btn{
+.main_home .btn {
     border: var(--verde) 1px solid;
     border-radius: 5px;
     background-color: var(--verde);
     color: var(--negro);
     padding: 5px 20px;
 }
-.main_home .btn:hover{
+.main_home .btn:hover {
     background-color: var(--verde-hover);
     cursor: pointer;
     color: aliceblue;
+}
+
+/* blogs style */
+
+.blogs_main {
+  display: grid;
+}
+.blogs_news_container {
+  background-color: #e6e9ed;
+  padding: 0 50px 40px;
+}
+.blogs_main_new {
+  display: grid;
+  grid-template-columns:  2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs_news_img_container {
+grid-column: 1;
+}
+.blogs_news_img_container img {
+  width: 80%;
+}
+
+.blogs_news_info_container {
+  grid-column: 2;
+}
+
+.blogs_news_info_container p{
+  margin-bottom: 35px;
 }
