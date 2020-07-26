@@ -169,6 +169,16 @@ grid-column: 1;
   grid-column: 2;
 }
 
-.blogs_news_info_container p{
+.blogs_news_info_container p {
   margin-bottom: 35px;
+}
+
+.blogs_posts_container {
+  padding:0 50px 40px;
+}
+
+.blogs_posts_container h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cdd2da;
+  text-align: center;
 }
