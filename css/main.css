@@ -5,6 +5,7 @@
     --verde-hover: #2fdee6;
     --gris-suave: #e7e9ed;
     --footer-color:#22272d;
+    --gris-border-color: #cdd2da;
   }
 
 /* General styles  */
@@ -198,7 +199,7 @@ grid-column: 1;
 
 .blogs_posts_container h3 {
   padding-bottom: 20px;
-  border-bottom: 1px solid #cdd2da;
+  border-bottom: 1px solid var(--gris-border-color);
   text-align: center;
 }
 
@@ -246,7 +247,7 @@ footer {
 }
 .blogpost_main_container h3 {
   padding-bottom: 20px;
-  border-bottom: 1px solid #cdd2da;
+  border-bottom: 1px solid var(--gris-border-color);
 }
 
 .blogpost_main_container article h1 {
@@ -291,4 +292,31 @@ footer {
   background-color: var(--gris-suave);
   padding: 70px 40px;
   margin-bottom: 50px;
+}
+
+.profile_main_container img {
+  width: 320px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.profile_main_container .profile_container {
+  display: flex;
+}
+
+.profile_main_projects {
+  padding: 0 50px 40px;
+}
+
+.profile_main_projects h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--gris-border-color);
+  text-align: center;
+}
+.projects_main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projects_main_container .project_container {
+  padding: 0 10px;
 }
