@@ -65,3 +65,20 @@ header .social_media_container .icons .social-link {
 .codepen {
     background-image: url("https://i1.wp.com/blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Small.png?resize=125%2C125&ssl=1");
   }
+
+nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 90px;
+}
+
+nav .nav_logo_container{
+    margin-left: 50px;
+}
+
+nav .profile_link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
