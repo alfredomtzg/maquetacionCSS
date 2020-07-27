@@ -7,6 +7,8 @@ Mobile Small  320px */
 
 /* Desktop */
 @media (max-width: 900px){
+    /* General style */
+    
     /* Blogs.html */
     .blogs_main_new {
         grid-template-columns: 1fr;
@@ -45,9 +47,7 @@ Mobile Small  320px */
 
 @media (max-width: 375px) {
     /* Blogs.html */
-    .blogs_news_img_container img {
-        width: 100%;
-    }
+    
 }
 
 /* Mobile Small  */
