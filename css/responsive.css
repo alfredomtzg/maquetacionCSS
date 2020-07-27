@@ -10,7 +10,7 @@
         grid-column: 1;
         grid-row: 3;
     }
-    .blogs_posts_container {
-        
+    .blogs_posts_container .post_container  {
+        max-width: 48%;
     }
 }
