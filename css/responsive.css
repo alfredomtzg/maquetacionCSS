@@ -7,6 +7,7 @@ Mobile Small  320px */
 
 /* Desktop */
 @media (max-width: 900px){
+    /* Blogs.html */
     .blogs_main_new {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
@@ -26,6 +27,7 @@ Mobile Small  320px */
 /* Tablet */
 
 @media (max-width: 600px){
+    /* Blogs.html */
    .blogs_posts_container .post_container {
         max-width: 95%;
     }
@@ -34,6 +36,7 @@ Mobile Small  320px */
 /* Mobile Large  */
 
 @media (max-width: 425px) {
+    /* Blogs.html */
     .blogs_news_img_container img {
         width: 98%;
     }
@@ -41,6 +44,7 @@ Mobile Small  320px */
 /* Mobile Medium*/
 
 @media (max-width: 375px) {
+    /* Blogs.html */
     .blogs_news_img_container img {
         width: 100%;
     }
@@ -49,6 +53,7 @@ Mobile Small  320px */
 /* Mobile Small  */
 
 @media (max-width: 320px) {
+    /* Blogs.html */
     .blogs_news_img_container img {
         width: 100%;
     }
