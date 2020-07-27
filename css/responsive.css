@@ -24,6 +24,16 @@ Mobile Small  320px */
     .blogs_posts_container .post_container  {
         max-width: 44%;
     }
+    .contact_main_container div {
+        display: inline-block;
+        width: 40%;
+      }
+      .contact_main_container 
+      .contact_left, 
+      .contact_right {
+        text-align: initial;
+        margin-top: 2em;
+      }
 }
 
 /* Tablet */
@@ -33,6 +43,7 @@ Mobile Small  320px */
    .blogs_posts_container .post_container {
         max-width: 95%;
     }
+    
 }
 
 /* Mobile Large  */
