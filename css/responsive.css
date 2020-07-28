@@ -84,6 +84,11 @@ Mobile Small  320px */
     .blogpost_img_container {
         padding: 0;
     }
+
+    .blogpost_main_container {
+        padding: 0 20px;
+    }
+
     .contact_main_container {
       padding: 20px 0;
     }
@@ -91,11 +96,26 @@ Mobile Small  320px */
     .contact_right p {
         display: none;
     }
+
+    /* perfil.html  */
+    
+    .projects_main_container {
+        display: block;
+    }
+    .profile_main_container .profile_container {
+        display: block;
+    }
+    .projects_main_container .project_container {
+        padding: 10px 10px;
+    }
 }
 /* Mobile Medium*/
 
 @media (max-width: 375px) {
-    /* Blogs.html */
+    /* perfil.html */
+    .profile_main_container img {
+        width: 100%;
+    }
     
 }
 
