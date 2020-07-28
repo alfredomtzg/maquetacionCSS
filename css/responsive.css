@@ -68,6 +68,29 @@ Mobile Small  320px */
     nav .nav_logo_container {
         margin:0;
     }
+    /* blogs.html */
+    footer p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .blogs_posts_container {
+        padding: 0 20px 40px;
+    }
+    .blogs_posts_container .post_container p {
+        font-size: .9em;
+    }
+    /* blog.html  */
+    .blogpost_img_container {
+        padding: 0;
+    }
+    .contact_main_container {
+      padding: 20px 0;
+    }
+    .contact_left p, 
+    .contact_right p {
+        display: none;
+    }
 }
 /* Mobile Medium*/
 
