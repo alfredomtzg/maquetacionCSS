@@ -53,6 +53,21 @@ Mobile Small  320px */
     .blogs_news_img_container img {
         width: 98%;
     }
+    /* index.html nav  */
+    header .social_media_container .icons {
+         width: 80%;
+         margin: 0;
+         justify-self: center;
+    }
+    /* index.html  */
+    nav .profile_link {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    nav .nav_logo_container {
+        margin:0;
+    }
 }
 /* Mobile Medium*/
 
@@ -68,4 +83,13 @@ Mobile Small  320px */
     .blogs_news_img_container img {
         width: 100%;
     }
+    /* index.html  */
+    header .social_media_container {
+        width: 320px;
+    }
+    
+    nav .nav_logo_container img {
+        width: 190px;
+    }
+    
 }
