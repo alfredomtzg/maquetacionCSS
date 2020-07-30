@@ -21,14 +21,14 @@ a {
     color: var(--negro);
 }
 
-.home_body{
+.home-body{
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.grid_container {
+.grid-container {
   max-width: 1000px;
   margin: auto;
 }
@@ -42,14 +42,14 @@ header {
     grid-template-rows: 1fr 1fr;
 }
 
-header .social_media_container {
+header .social-media-container {
     width:100%;
     height: 60px;
     display: grid;
     background-color: var(--verde);
 }
 
-header .social_media_container .icons {
+header .social-media-container .icons {
     width: 300px;
     height: auto;
     display: flex;
@@ -59,7 +59,7 @@ header .social_media_container .icons {
     justify-self: end;
     margin: 0 30px;
 }
-header .social_media_container .icons .social-link {
+header .social-media-container .icons .social-link {
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -93,28 +93,28 @@ nav {
       height: 90px;
 }
 
-nav .nav_logo_container {
+nav .nav-logo-container {
     margin-left: 50px;
 }
 
-nav .nav_logo_container img {
+nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
 }
 
-nav .profile_link {
+nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
 }
-nav .profile_link a {
+nav .profile-link a {
     border-bottom: 1px solid var(--negro);
     
 }
 /* main style  */
 
-.main_home {
+.main-home {
     background-image: url('../assets/img/cover.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -127,11 +127,11 @@ nav .profile_link a {
 }
 
 @supports (backdrop-filter: blur(5px)) {
-    .main_text {
+    .main-text {
       backdrop-filter: blur(5px);
     }
   }
-.main_home h1 {
+.main-home h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: 700px;
@@ -140,14 +140,14 @@ nav .profile_link a {
     letter-spacing: .3em;
     white-space: .3em;
 }
-.main_home .btn {
+.main-home .btn {
     border: var(--verde) 1px solid;
     border-radius: 5px;
     background-color: var(--verde);
     color: var(--negro);
     padding: 5px 20px;
 }
-.main_home .btn:hover {
+.main-home .btn:hover {
     background-color: var(--verde-hover);
     cursor: pointer;
     color: aliceblue;
@@ -155,69 +155,69 @@ nav .profile_link a {
 
 /* blogs style */
 
-.blogs_main {
+.blogs-main {
   display: grid;
 }
-.blogs_news_container {
+.blogs-news-container {
   background-color: var(--gris-suave);
   padding: 0 50px 40px;
 }
-.blogs_main_new {
+.blogs-main-new {
   display: grid;
   grid-template-columns:  2fr 1fr;
   grid-template-rows: 2fr;
 }
 
-.blogs_news_img_container {
+.blogs-news-img-container {
 grid-column: 1;
 }
-.blogs_news_img_container img {
+.blogs-news-img-container img {
   width: 80%;
 }
 
-.blogs_news_info_container {
+.blogs-news-info-container {
   grid-column: 2;
 }
 
-.blogs_news_info_container p {
+.blogs-news-info-container p {
   margin-bottom: 35px;
 }
 
-.blogs_btn{
+.blogs-btn{
   border: 1px solid var(--verde);
   border-radius: 5px;
   padding: 10px 15px;
   font-size: 12px;
 }
 
-.blogs_btn:hover {
+.blogs-btn:hover {
   background-color: var(--verde-hover);
   cursor: pointer;
   color: aliceblue;
 }
 
-.blogs_posts_container {
+.blogs-posts-container {
   padding:0 50px 40px;
 }
 
-.blogs_posts_container h3 {
+.blogs-posts-container h3 {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--gris-border-color);
   text-align: center;
 }
 
-.blogs_posts_container .post_container {
+.blogs-posts-container .post-container {
   display: inline-block;
   padding-left: 10px;
   max-width: 30%;
   margin-bottom: 50px;
 }
 
-.blogs_posts_container .post_container p {
+.blogs-posts-container .post-container p {
   margin-bottom: 35px;
 }
 
-.blogs_posts_container .post_container img {
+.blogs-posts-container .post-container img {
   width: 100%;
   height: 220px;
   object-fit: cover;
@@ -238,28 +238,28 @@ footer {
 
 /* blog style  */
 
-.blogpost_img_container {
+.blogpost-img-container {
   padding: 0 50px 40px;
 }
 
-.blogpost_img_container img {
+.blogpost-img-container img {
   width: 100%;
 }
-.blogpost_main_container {
+.blogpost-main-container {
   padding: 0 50px 40px;
 }
-.blogpost_main_container h3 {
+.blogpost-main-container h3 {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--gris-border-color);
 }
 
-.blogpost_main_container article h1 {
+.blogpost-main-container article h1 {
   font-size: 35px;
 }
 
 /* contac style  */
 
-.contact_main_container {
+.contact-main-container {
   width: 100%;
   height: 200px;
   background-color: var(--gris-suave);
@@ -267,61 +267,61 @@ footer {
   padding-bottom: 50px;
 }
 
-.contact_main_container div {
+.contact-main-container div {
   display: inline-block;
   width: 49.5%;
 }
 
-.contact_main_container div a {
+.contact-main-container div a {
   border-bottom: 1px solid var(--negro);
   padding-bottom: 5px;
 }
 
-.contact_main_container 
-.contact_left, 
-.contact_right {
+.contact-main-container 
+.contact-left, 
+.contact-right {
   text-align: initial;
   margin-top: 85px;
 }
-.contact_main_container img {
+.contact-main-container img {
   width: 100px;
 }
 
 /* Perfil style  */
 
-.profile_main_container {
+.profile-main-container {
   width: 100%;
   background-color: var(--gris-suave);
   
 }
-.profile_main_container .profile_container{
+.profile-main-container .profile-container{
   padding: 70px 40px;
   margin-bottom: 50px;
 }
 
-.profile_main_container img {
+.profile-main-container img {
   width: 320px;
   margin-right: 20px;
   border-radius: 5px;
 }
 
-.profile_main_container .profile_container {
+.profile-main-container .profile-container {
   display: flex;
 }
 
-.profile_main_projects {
+.profile-main-projects {
   padding: 0 50px 40px;
 }
 
-.profile_main_projects h3 {
+.profile-main-projects h3 {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--gris-border-color);
   text-align: center;
 }
-.projects_main_container {
+.projects-main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.projects_main_container .project_container {
+.projects-main-container .project-container {
   padding: 0 10px;
 }
