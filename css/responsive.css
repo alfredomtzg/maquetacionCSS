@@ -49,7 +49,7 @@ Mobile Small  320px */
 
 /* Mobile Large  */
 
-@media (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 600px) {
     /* Blogs.html */
     .blogs-news-img-container img {
         width: 98%;
@@ -112,7 +112,7 @@ Mobile Small  320px */
 }
 /* Mobile Medium*/
 
-@media (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 424px) {
     /* perfil.html */
     .profile-main-container img {
         width: 100%;
@@ -122,8 +122,14 @@ Mobile Small  320px */
 
 /* Mobile Small  */
 
-@media (max-width: 320px) {
+@media screen and (min-width:320px) and (max-width:374px) {
     /* Blogs.html */
+    nav .nav-logo-container {
+        margin: 0;
+    }
+    header .social-media-container .icons{
+        margin: 0;
+    }
     .blogs-news-img-container img {
         width: 100%;
     }
